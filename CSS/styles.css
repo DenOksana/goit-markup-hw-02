@@ -2,4 +2,121 @@ ul,
 ol {
     list-style-type: none;
 }
- 
+.link{
+    text-decoration: none;
+}
+ button{
+    cursor: pointer;
+ }
+ body{
+font-family: 'Roboto', sans-serif;
+ }
+ .span{
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--IRIS, #4D5AE5);
+ }
+ .logotype{
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--NAVY-BLUE, #2E2F42);
+ }
+.menu-link{
+ /* Body Medium */
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+color: var(--NAVY-BLUE, #2E2F42);
+}
+.menu-link:hover,
+.menu-link:focus{
+color: #9747FF;
+}
+.link-adress{
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+        color: var(--SLATE, #434455);
+}
+.link-adress:hover,
+.link-adress:focus{
+    color: #404BBF;
+}
+.main-section{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+h1{
+        text-align: center;
+        /* Header 1 */
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        /* 107.143% */
+        letter-spacing: 0.02em;
+        color: var(--WHITE, #FFF);
+}
+button{
+        /* Button Text */
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.64px;
+        color: var(--WHITE, #FFFFFF);
+        border-radius: 4px;
+        background: var(--IRIS, #4D5AE5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+button:hover,
+button:focus{
+border-radius: 4px;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+h3{
+        /* Header 3 */
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.02em;
+        color: var(--NAVY-BLUE, #2E2F42);
+}
+p{
+        /* Body */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+        color: var(--SLATE, #434455);
+}
+h2{
+        text-align: center;
+        /* Header 2 */
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--NAVY-BLUE, #2E2F42);
+}
