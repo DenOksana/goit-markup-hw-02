@@ -10,6 +10,8 @@ ol {
  }
  body{
 font-family: 'Roboto', sans-serif;
+color: #434455;
+background-color: #FFFFFF;
  }
  .span{
         font-family: 'Raleway', sans-serif;
@@ -69,7 +71,7 @@ h1{
         line-height: 1.07;
         /* 107.143% */
         letter-spacing: 0.02em;
-        color: var(--WHITE, #FFF);
+        color: var(--WHITE, #FFFFFF);
 }
 button{
         /* Button Text */
