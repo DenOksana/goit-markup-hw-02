@@ -57,7 +57,7 @@ body {
 
 .link-adress {
     /* Body */
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
@@ -75,13 +75,18 @@ body {
 header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFFFFF);
+    }
+.address{
+    font-style: normal;
 }
-
 .main-section {
     background: var(--NAVY-BLUE, #2E2F42);
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
 }
 
-h1 {
+.name-main-section {
     text-align: center;
     /* Header 1 */
     font-size: 56px;
@@ -92,7 +97,8 @@ h1 {
     color: var(--WHITE, #FFFFFF);
 }
 
-button {
+.button-order-service {
+    font-family: Roboto, sans-serif;
     /* Button Text */
     font-size: 16px;
     font-weight: 500;
@@ -115,11 +121,11 @@ button:focus {
 
 .section-our-benefits {
     background: #FFFFFF;
-}
+    }
 
 .benefits-item {
     /* Header 3 */
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -131,7 +137,7 @@ button:focus {
 
 .benefits-detail {
     /* Body */
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -142,8 +148,9 @@ button:focus {
 }
 
 .section-our-team {
-    background: var(--CLOUD, #F4F4FD);
-}
+    background: var(--CLOUD, #FFFFFF);
+    width: 1440px;
+   }
 
 .our-team {
     text-align: center;
@@ -173,7 +180,7 @@ button:focus {
 .profession {
     text-align: center;
     /* Body */
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -185,12 +192,12 @@ button:focus {
 
 .section-our-portfolio {
     background: #FFFFFF;
-}
+    }
 
 .our-portfolio {
     text-align: center;
     /* Header 2 */
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -203,7 +210,7 @@ button:focus {
 
 .portfolio-items {
     /* Header 3 */
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -215,7 +222,7 @@ button:focus {
 
 .portfolio-spesiec {
     /* Body */
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -227,11 +234,14 @@ button:focus {
 
 .section-footer {
     background: var(--NAVY-BLUE, #2E2F42);
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
 }
 
 .paragraf-footer {
     /* Body */
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -242,7 +252,7 @@ button:focus {
 }
 
 .logotype-footer {
-    font-family: Raleway;
+    font-family: Raleway; 
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -254,7 +264,7 @@ button:focus {
 }
 
 .span-footer {
-    font-family: Raleway;
+    font-family: Raleway; 
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
