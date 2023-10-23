@@ -81,13 +81,9 @@ header {
 }
 .main-section {
     background: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
-}
+    }
 
 .name-main-section {
-    text-align: center;
     /* Header 1 */
     font-size: 56px;
     font-weight: 700;
@@ -108,16 +104,13 @@ header {
     color: var(--WHITE, #FFFFFF);
     border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
 button:hover,
 button:focus {
-    border-radius: 4px;
-    background: var(--OCEAN, #404BBF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+        background: var(--OCEAN, #404BBF);
+    }
 
 .section-our-benefits {
     background: #FFFFFF;
@@ -149,21 +142,11 @@ button:focus {
 
 .section-our-team {
     background: var(--CLOUD, #F4F4FD);
-    width: 1440px;
-   }
+       }
 .spesialist{
-    border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-}
+    }
 .our-team {
-    text-align: center;
     /* Header 2 */
     font-size: 36px;
     font-weight: 700;
@@ -175,7 +158,6 @@ button:focus {
 }
 
 .names {
-    text-align: center;
     /* Header 3 */
     font-family: Roboto;
     font-size: 20px;
@@ -188,7 +170,6 @@ button:focus {
 }
 
 .profession {
-    text-align: center;
     /* Body */
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -204,19 +185,9 @@ button:focus {
     background: #FFFFFF;
         }
 .portfolio-place{
-    display: flex;
-    width: 360px;
-    height: 420px;
-    padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    flex-shrink: 0;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
+       background: var(--WHITE, #FFFFFF);
 }
 .our-portfolio {
-    text-align: center;
     /* Header 2 */
     font-family: Roboto, sans-serif;
     font-size: 36px;
@@ -255,10 +226,7 @@ button:focus {
 
 .section-footer {
     background: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
-}
+    }
 
 .paragraf-footer {
     /* Body */
