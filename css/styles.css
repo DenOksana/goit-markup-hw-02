@@ -73,8 +73,7 @@ body {
 }
 
 header {
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFFFFF);
+      background: var(--WHITE, #FFFFFF);
     }
 .address{
     font-style: normal;
@@ -84,6 +83,7 @@ header {
     }
 
 .name-main-section {
+    text-align: center;
     /* Header 1 */
     font-size: 56px;
     font-weight: 700;
@@ -102,7 +102,6 @@ header {
     /* 150% */
     letter-spacing: 0.64px;
     color: var(--WHITE, #FFFFFF);
-    border-radius: 4px;
     background: #4D5AE5;
     cursor: pointer;
 }
@@ -147,6 +146,7 @@ button:focus {
     background: var(--WHITE, #FFF);
     }
 .our-team {
+    text-align: center;
     /* Header 2 */
     font-size: 36px;
     font-weight: 700;
@@ -188,6 +188,7 @@ button:focus {
        background: var(--WHITE, #FFFFFF);
 }
 .our-portfolio {
+    text-align: center;
     /* Header 2 */
     font-family: Roboto, sans-serif;
     font-size: 36px;
